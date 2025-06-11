@@ -27,3 +27,7 @@ Hinweis: Zwei Kabel pro Switch erzeugen Redundanz (nützlich für Spanning Tree 
 
 ###  🧪 Test
 Da keine PCs beteiligt sind, wurde nur die physikalische Verbindung getestet. Alle Verbindungen waren aktiv.
+
+
+### 📎 Anhang:
+Im Anhang befinden sich Screenshots zu diesem Projekt   
