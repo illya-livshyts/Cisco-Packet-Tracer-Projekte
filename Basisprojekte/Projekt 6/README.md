@@ -1,3 +1,6 @@
-# Projekt 6: Drei PCs direkt mit einem Multilayer-Switch verbunden
+# Projekt 6: VLANs auf einem Multilayer Switch (Layer 3)
 
-In diesem Projekt werden drei PCs direkt mit einem Multilayer-Switch (Layer 3) verbunden. Ziel ist es, eine einfache Kommunikation zwischen den PCs herzustellen. 
+## Projektziele
+Verbindung zwischen 3 PCs über einen Multilayer Switch mit VLANs. Jeder PC befindet sich in einem eigenen VLAN mit jeweils eigener IP-Adressierung.
+
+
