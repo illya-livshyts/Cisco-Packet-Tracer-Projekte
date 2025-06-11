@@ -4,4 +4,4 @@ Projekt 2: Verbindung über einen Switch
 Projekt 3: Einführung in VLANs (ohne Router)       
 Projekt 4: VLANs mit 2 Switches (8 PCs)             
 Projekt 5: Drei Switches verbunden über einen Multilayer-Switch       
-Projekt 6: Drei PCs direkt mit einem Multilayer-Switch verbunden     
+Projekt 6: VLANs auf einem Multilayer Switch (Layer 3)    
