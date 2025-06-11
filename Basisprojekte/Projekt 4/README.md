@@ -39,4 +39,8 @@ Die Trunk-Ports (gig0/1) übertragen VLAN-Informationen für mehrere VLANs gleic
 
 Die PCs kommunizieren nur innerhalb ihres VLANs, da kein Router vorhanden ist.
 
-VLAN-Isolierung sorgt für mehr Sicherheit und eine bessere Netzsegmentierung.
+VLAN-Isolierung sorgt für mehr Sicherheit und eine bessere Netzsegmentierung. 
+
+
+### 📎 Anhang:
+Im Anhang befinden sich Screenshots zu diesem Projekt 
