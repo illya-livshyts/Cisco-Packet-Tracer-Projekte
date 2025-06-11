@@ -44,3 +44,7 @@ PC0 → ping PC2 oder PC3 ❌ funktioniert nicht (anderes VLAN, kein Router)
 
 ## 🧠 Erklärung:
 In diesem Projekt habe ich zwei VLANs auf einem Switch eingerichtet: VLAN 20 und VLAN 30. Jeder VLAN wurde zwei PCs zugewiesen. Durch VLANs kann man Netzwerke logisch trennen, auch wenn alle Geräte physisch an demselben Switch hängen. Die IP-Adressen wurden nach VLAN-Struktur vergeben. Nur Geräte im selben VLAN können miteinander kommunizieren.
+
+
+### 📎 Anhang:
+Im Anhang befinden sich Screenshots zu diesem Projekt
