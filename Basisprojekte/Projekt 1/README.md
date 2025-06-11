@@ -36,3 +36,6 @@ Die Antwortpakete zeigen, dass die Verbindung funktioniert.
 
 ## 🧠 Erklärung:
 In diesem Projekt habe ich zwei PCs direkt mit einem Crossover-Kabel verbunden. Jeder PC bekam eine IP-Adresse im gleichen Subnetz. Dadurch können sie direkt kommunizieren. Mit dem ping-Befehl konnte ich prüfen, ob die Verbindung funktioniert. Das Projekt zeigt, wie einfache Punkt-zu-Punkt-Netzwerke aufgebaut werden.
+
+### 📎 Anhang:
+Im Anhang befinden sich Screenshots zu diesem Projekt
