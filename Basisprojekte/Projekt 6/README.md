@@ -38,27 +38,27 @@ PC2 → Fa0/3
 
 2) VLANs erstellen:
 
-VLAN 20 für PC0
+VLAN 2 für PC0
 
-VLAN 30 für PC1
+VLAN 3 für PC1
 
-VLAN 40 für PC2
+VLAN 4 für PC2
 
 3) Ports VLANs zuweisen:
 
-Fa0/1 → VLAN 20
+Fa0/1 → VLAN 2
 
-Fa0/2 → VLAN 30
+Fa0/2 → VLAN 3
 
-Fa0/3 → VLAN 40
+Fa0/3 → VLAN 4
 
 4) SVIs (Switch Virtual Interfaces) konfigurieren:
 
-VLAN 20 → IP: 2.2.2.1
+VLAN 2 → IP: 2.2.2.1
 
-VLAN 30 → IP: 3.3.3.1
+VLAN 3 → IP: 3.3.3.1
 
-VLAN 40 → IP: 4.4.4.1
+VLAN 4 → IP: 4.4.4.1
 
 5) PCs IP-Adressen zuweisen:
 
