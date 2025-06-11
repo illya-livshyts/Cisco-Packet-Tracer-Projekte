@@ -42,3 +42,7 @@ Pinge die anderen drei IP-Adressen an.
 
 ## 🧠 Erklärung:
 In diesem Projekt habe ich vier PCs über einen Switch verbunden. Jeder PC hat eine eigene IP-Adresse im gleichen Subnetz bekommen. Der Switch braucht keine Konfiguration, da er automatisch Daten weiterleitet. Ich habe die Verbindung mit dem ping-Befehl getestet, und alle Pakete wurden erfolgreich übertragen. Dieses Projekt zeigt, wie einfache LAN-Verbindungen mit einem Switch funktionieren.
+
+
+### 📎 Anhang:
+Im Anhang befinden sich Screenshots zu diesem Projekt
