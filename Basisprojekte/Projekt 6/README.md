@@ -84,4 +84,7 @@ Alle Pings sollten erfolgreich sein
 
 
 ## 📝 Erklärung:
-Dieses Projekt zeigt, wie ein Multilayer-Switch genutzt wird, um mehrere VLANs zu verwalten und das Routing zwischen ihnen zu ermöglichen. Jedes VLAN trennt den Datenverkehr logisch, aber durch den Layer-3-Switch kann Kommunikation zwischen den VLANs stattfinden – eine typische Konfiguration in modernen Netzwerken.
+Dieses Projekt zeigt, wie ein Multilayer-Switch genutzt wird, um mehrere VLANs zu verwalten und das Routing zwischen ihnen zu ermöglichen. Jedes VLAN trennt den Datenverkehr logisch, aber durch den Layer-3-Switch kann Kommunikation zwischen den VLANs stattfinden – eine typische Konfiguration in modernen Netzwerken.   
+
+### 📎 Anhang:
+Im Anhang befinden sich Screenshots zu diesem Projekt
