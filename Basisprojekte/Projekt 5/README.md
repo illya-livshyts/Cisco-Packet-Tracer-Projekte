@@ -6,7 +6,7 @@ In diesem Projekt werden drei Access-Switches mit einem zentralen Multilayer-Swi
 
 -Verbindung testen
 
--Netzwerkstruktur in Form eines Core-Designs verstehen
+-Netzwerkstruktur verstehen
 
 ## 🖥️Geräte
 3x Switches  
