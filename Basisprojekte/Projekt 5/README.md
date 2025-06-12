@@ -31,7 +31,9 @@ Da keine PCs beteiligt sind, wurde nur die physikalische Verbindung getestet. Al
 Was macht das Spanning Tree Protocol (STP)?              
 -STP verhindert Schleifen, indem es einen Hauptpfad aktiv lässt und den zweiten blockiert – bis er gebraucht wird.       
 
--Wenn du zwei Switches mit zwei Kabeln verbindest, entsteht eine Redundanz (doppelte Verbindung). Das ist gut, weil:   ✅ Ausfallsicherheit: Wenn ein Kabel defekt ist, funktioniert das Netzwerk trotzdem.        
+-Wenn du zwei Switches mit zwei Kabeln verbindest, entsteht eine Redundanz (doppelte Verbindung).         
+Das ist gut, weil:            
+✅ Ausfallsicherheit: Wenn ein Kabel defekt ist, funktioniert das Netzwerk trotzdem.        
 ✅ Lastverteilung: Der Traffic kann sich auf beide Kabel aufteilen (wenn EtherChannel verwendet wird).
 
 
