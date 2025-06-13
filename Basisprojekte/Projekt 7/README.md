@@ -33,7 +33,7 @@ Switch1 ↔ Multilayer Switch (Trunk)
 
 VLAN 2
 
-VLAN 3
+VLAN 3        
 (Auf beiden Access Switches und dem Multilayer Switch)
 
 3) Ports den VLANs zuweisen:
