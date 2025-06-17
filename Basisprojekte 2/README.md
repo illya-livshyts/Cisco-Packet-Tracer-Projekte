@@ -4,4 +4,4 @@ Projekt 11: Erweiterung von Projekt 10 (mit zusätzlichem Router)
 Projekt 12: DHCP im lokalen Netzwerk (Single-Segment-Netz)                        
 Projekt 13: DHCP im VLAN mit zentralem Server    
 Projekt 14: NAT zwischen privaten VLANs und externem Server              
-Projekt 15 – Statisches NAT für gezielte Serverkommunikation
+Projekt 15: Statisches NAT für gezielte Serverkommunikation
