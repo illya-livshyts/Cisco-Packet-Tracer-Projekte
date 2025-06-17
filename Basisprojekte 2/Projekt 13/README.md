@@ -1,4 +1,4 @@
-# Projekt 13 – DHCP im VLAN mit zentralem Server                
+# Projekt 13: DHCP im VLAN mit zentralem Server                
 
 In diesem Projekt wurde ein Netzwerk mit mehreren VLANs aufgebaut, bei dem ein zentraler DHCP-Server im VLAN 4 alle Clients in VLAN 2 und VLAN 3 automatisch mit IP-Adressen versorgt. Die VLANs sind logisch getrennt, aber durch Inter-VLAN-Routing auf dem Router miteinander verbunden. Jeder PC erhält eine IP-Adresse dynamisch per DHCP, statt manuell konfiguriert zu werden.
 
