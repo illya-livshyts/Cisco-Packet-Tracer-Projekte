@@ -1,4 +1,4 @@
-# Projekt 12 – DHCP im lokalen Netzwerk (Single-Segment-Netz)       
+# Projekt 12: DHCP im lokalen Netzwerk (Single-Segment-Netz)       
 
 ## Ziel des Projekts
 Das Ziel dieses Projekts ist es, ein kleines Netzwerk mit einem Router als DHCP-Server zu erstellen, der automatisch IP-Adressen an Clients (PCs) vergibt. Damit lernst du die Funktionsweise des Dynamic Host Configuration Protocol (DHCP) kennen und kannst überprüfen, ob alle Geräte automatisch konfiguriert und miteinander verbunden sind.
