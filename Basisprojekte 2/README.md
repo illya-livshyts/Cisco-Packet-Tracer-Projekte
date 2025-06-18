@@ -5,4 +5,4 @@ Projekt 12: DHCP im lokalen Netzwerk (Single-Segment-Netz)
 Projekt 13: DHCP im VLAN mit zentralem Server    
 Projekt 14: NAT zwischen privaten VLANs und externem Server              
 Projekt 15: Statisches NAT für gezielte Serverkommunikation                              
-Projekt 16 – Dynamisches Routing mit OSPF (Open Shortest Path First)
+Projekt 16: Dynamisches Routing mit OSPF (Open Shortest Path First)
