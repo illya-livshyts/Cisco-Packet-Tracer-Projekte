@@ -19,3 +19,5 @@ OSPF ist ein Link-State-Protokoll, das schnell konvergiert und effizient mit gro
 
 Es eignet sich perfekt für strukturierte, mittelgroße Netzwerke mit mehreren Pfaden zwischen den Routern.
 
+## 📎 Anhang
+Screenshots zur Topologie und Konfiguration befinden sich im Anhang
