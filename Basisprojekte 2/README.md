@@ -7,4 +7,4 @@ Projekt 14: NAT zwischen privaten VLANs und externem Server
 Projekt 15: Statisches NAT für gezielte Serverkommunikation                              
 Projekt 16: Dynamisches Routing mit OSPF (Open Shortest Path First)                
 Projekt 17: Dynamisches Routing mit OSPF + VLANs + Loopbacks                 
-Projekt 18: Dynamisches Routing mit EIGRP
+Projekt 18: Dynamisches Routing mit EIGRP (Unterschied zwischen EIGRP und OSPF) 
