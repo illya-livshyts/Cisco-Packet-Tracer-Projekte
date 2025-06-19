@@ -19,7 +19,7 @@ Alle Router sollen automatisch Routen zueinander lernen, damit die Endgeräte in
 | Einsatzgebiet   | Vor allem in Cisco-Netzwerken         | Universell in allen Netzwerken      |
 
 
-
-
+## 📎 Anhang
+Screenshots zur Topologie und Konfiguration befinden sich im Anhang
 
 
