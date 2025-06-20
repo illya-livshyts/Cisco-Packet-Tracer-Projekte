@@ -21,6 +21,8 @@ Sie ermöglichen eine sehr feingranulare Kontrolle über den Netzwerkverkehr.
 - Ziel-IP-Adresse
 - Protokoll (z. B. TCP, UDP, ICMP, IP)
 - Quell-Port (z. B. welcher Dienst sendet das Paket)
-- Ziel-Port (z. B. welcher Dienst soll das Paket empfangen, z. B. Port 80 für HTTP, Port 443 für HTTPS, Port 23 für Telnet)
+- Ziel-Port (z. B. welcher Dienst soll das Paket empfangen, z. B. Port 80 für HTTP, Port 443 für HTTPS, Port 23 für Telnet)              
+
+
 📎siehe anlage (image_4)
 
