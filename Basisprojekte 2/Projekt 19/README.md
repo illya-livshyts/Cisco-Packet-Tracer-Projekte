@@ -9,4 +9,4 @@ Netzwerke (Router, Switches, Firewalls): Dies ist der häufigste Kontext, in dem
 - Welche Portnummern (z. B. Port 80 für HTTP, Port 443 für HTTPS) für bestimmte Dienste genutzt werden dürfen.
 - Ob der Datenverkehr eingehend (in das Netzwerk) oder ausgehend (aus dem Netzwerk) ist. Netzwerk-ACLs dienen dazu, die Netzwerksicherheit zu erhöhen, indem sie unerwünschten Datenverkehr blockieren, bestimmte Dienste einschränken oder sogar Denial-of-Service-Angriffe (DoS) abwehren.
 
-## Der Hauptunterschied zwischen Standard ACLs und Extended ACLs liegt in der Granularität und den Kriterien, die sie zum Filtern von Netzwerkverkehr verwenden.
+#### Der Hauptunterschied zwischen Standard ACLs und Extended ACLs liegt in der Granularität und den Kriterien, die sie zum Filtern von Netzwerkverkehr verwenden.
