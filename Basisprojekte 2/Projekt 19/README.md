@@ -14,6 +14,7 @@ Netzwerke (Router, Switches, Firewalls): Dies ist der häufigste Kontext, in dem
 #### Standard ACLs:
 Sie kann den gesamten Verkehr von oder zu einer bestimmten Quell-IP-Adresse (oder einem Subnetz) erlauben oder blockieren.
 
+📎siehe  anlage (image_2)
 #### Extended ACL (Erweiterte Zugriffssteuerungsliste):
 Sie ermöglichen eine sehr feingranulare Kontrolle über den Netzwerkverkehr.
 - Quell-IP-Adresse
