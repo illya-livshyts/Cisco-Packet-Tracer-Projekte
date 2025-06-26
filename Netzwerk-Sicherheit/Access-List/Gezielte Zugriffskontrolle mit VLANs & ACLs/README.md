@@ -11,3 +11,5 @@ Durch diese Konfiguration wurde eine klare Zugriffsbeschränkung erreicht:
 - Kontrolle: Nur autorisierte Nutzer (Büro-VLAN) können auf den Server zugreifen.
 
 - Skalierbarkeit: Das Konzept lässt sich auf weitere VLANs und Dienste erweitern.
+## 📎 Anhang:
+Screenshots zur Topologie und Konfiguration befinden sich im Anhang
