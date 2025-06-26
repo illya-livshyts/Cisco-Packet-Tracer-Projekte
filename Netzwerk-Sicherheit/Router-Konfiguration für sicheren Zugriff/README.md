@@ -15,4 +15,5 @@ Ich habe einen Cisco-Router konfiguriert, um den administrativen Zugriff zu sich
 - Stabilität: Durch Passwörter wird verhindert, dass Unbefugte Einstellungen ändern.
 
 
-
+## 📎 Anhang:
+Screenshots zur Topologie und Konfiguration befinden sich im Anhang
