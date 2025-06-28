@@ -1,0 +1,113 @@
+Konfgiguration Projekt 20:
+
+
+Konfgiguration: PC ping Router 3/2
+
+
+1) Topologie erstellen/ IP und Subnetz jedem geben/ Verbindung herstellen 
+
+
+2)Router:3
+Router(config)#inter
+Router(config)#interface fa0/1
+Router(config-if)# description inside
+Router(config-if)#end
+
+Router(config)#interface fa0/0
+Router(config-if)# description outside
+Router(config-if)#end 
+
+
+Router(config)#ip route 0.0.0.0 0.0.0.0 210.210.1.1
+
+
+3)NAT: Router 0
+Router(config)#interface fa0/0
+Router(config-if)#ip nat out
+Router(config-if)#ip nat outside 
+Router(config-if)#exit
+Router(config)#interface fa0/1
+Router(config-if)#ip nat in
+Router(config-if)#ip nat inside 
+Router(config-if)#end
+
+4)Acc List erstellen: 
+Router(config)#
+Router(config)#ip access-list standard FOR-NAT 
+Router(config-std-nacl)#permit 192.168.1.0 0.0.0.255
+Router(config-std-nacl)#exit
+
+Router(config)#ip nat inside source list FOR-NAT interface fa0/0 overload 
+
+
+
+5)Genau das gleiche machen auf der rechten Seite:
+Aber mit -192.168.2.0
+        - 210.210.2.1
+
+
+Konfgiguration: VPN
+
+1)Router 3:
+Router(config)#crypto isakmp policy 1
+Router(config-isakmp)#encryption 3des
+Router(config-isakmp)#hash md5
+Router(config-isakmp)#authentication pre-share 
+Router(config-isakmp)#group 2 
+Router(config-isakmp)#exit 
+
+Router(config)#crypto isakmp key cisco addr
+Router(config)#crypto isakmp key cisco address 210.210.2.2
+
+Router(config)#crypto ipsec transform-set TS esp-3des esp-md5-hmac
+
+Router(config)#ip access-list extended FOR-VPN
+Router(config-ext-nacl)#permit ip 192.168.1.0 0.0.0.255 192.168.2.0 0.0.0.255
+
+
+Router(config)#crypto map CMAP 10 ipsec-isakmp
+Router(config-crypto-map)#set peer 210.210.2.2
+Router(config-crypto-map)#set transform-set TS
+Router(config-crypto-map)#match address FOR-VPN
+Router(config-crypto-map)#exit
+
+Router(config)#interface fa0/0
+Router(config-if)#crypto map CMAP
+*Jan  3 07:16:26.785: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is ON
+Router(config-if)#end
+
+
+2) Router 1: Genau das gleiche machen aber bei ...
+
+-Router(config)#crypto isakmp key cisco address 210.210.1.2
+
+-Router(config)#ip access-list extended FOR-VPN
+Router(config-ext-nacl)#permit ip 192.168.2.0 0.0.0.255 192.168.1.0 0.0.0.255
+
+-Router(config)#crypto map CMAP 10 ipsec-isakmp
+Router(config-crypto-map)#set peer 210.210.1.2
+
+
+3)
+Router3:
+
+Router(config)#no ip access-list standard FOR-NAT
+Router(config)#ip access-list extended FOR-NAT
+Router(config-ext-nacl)#deny ip 192.168.1.0 0.0.0.255 192.168.2.0 0.0.0.255
+Router(config-ext-nacl)#permit ip 192.168.1.0 0.0.0.255 any
+Router(config-ext-nacl)#exit 
+
+
+
+
+Router1:
+
+Router(config)#no ip access-list standard FOR-NAT
+Router(config)#ip access-list extended FOR-NAT
+Router(config-ext-nacl)#deny ip 192.168.2.0 0.0.0.255 192.168.1.0 0.0.0.255
+Router(config-ext-nacl)#permit ip 192.168.2.0 0.0.0.255 any
+Router(config-ext-nacl)#exit 
+
+
+
+
