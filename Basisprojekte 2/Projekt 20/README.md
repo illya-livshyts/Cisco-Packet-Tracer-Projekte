@@ -23,7 +23,7 @@ Die beiden Netzwerke liegen geografisch getrennt und kommunizieren über das Int
 Screenshots zur Topologie und Konfiguration befinden sich im Anhang
 
 
-### 🔐 Was ist VPN und warum ist es wichtig?
+# 🔐 Was ist VPN und warum ist es wichtig?
 VPN (Virtual Private Network) ist eine Technologie, die ein sicheres und verschlüsseltes Netzwerk über das Internet aufbaut.
 Man nutzt VPN, um private Netzwerke über öffentliche Verbindungen zu verbinden – also z. B. eine Filiale mit einem Hauptbüro, wie in diesem Projekt.
 
