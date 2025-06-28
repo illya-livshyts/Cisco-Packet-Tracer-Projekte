@@ -8,4 +8,5 @@ Projekt 15: Statisches NAT für gezielte Serverkommunikation
 Projekt 16: Dynamisches Routing mit OSPF (Open Shortest Path First)                
 Projekt 17: Dynamisches Routing mit OSPF + VLANs + Loopbacks                 
 Projekt 18: Dynamisches Routing mit EIGRP (Unterschied zwischen EIGRP und OSPF)            
-Projekt 19: Access Control List (ACL)
+Projekt 19: Access Control List (ACL)          
+Projekt 20:
