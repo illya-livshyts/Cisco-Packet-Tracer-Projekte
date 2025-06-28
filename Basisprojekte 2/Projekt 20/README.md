@@ -15,12 +15,13 @@ Screenshots zur Topologie und Konfiguration befinden sich im Anhang
 VPN (Virtual Private Network) ist eine Technologie, die ein sicheres und verschlüsseltes Netzwerk über das Internet aufbaut.
 Man nutzt VPN, um private Netzwerke über öffentliche Verbindungen zu verbinden – also z. B. eine Filiale mit einem Hauptbüro, wie in diesem Projekt.
 
-## Vorteile von VPN:
+## Vorteile von VPN:  
 
-Sicherheit: Daten werden verschlüsselt übertragen.
 
-Datenschutz: Keine Einsicht durch Dritte im Internet.
+- Sicherheit: Daten werden verschlüsselt übertragen.
 
-Remote-Zugriff: Geräte an entfernten Standorten können sicher auf zentrale Ressourcen zugreifen.
+- Datenschutz: Keine Einsicht durch Dritte im Internet.
 
-Kostenersparnis: Kein teures Mietleitungsnetz nötig.
+- Remote-Zugriff: Geräte an entfernten Standorten können sicher auf zentrale Ressourcen zugreifen.
+
+- Kostenersparnis: Kein teures Mietleitungsnetz nötig.
