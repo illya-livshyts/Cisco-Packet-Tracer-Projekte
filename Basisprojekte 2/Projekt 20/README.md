@@ -10,3 +10,17 @@ In diesem Projekt wurde eine VPN-Verbindung (Virtual Private Network) eingericht
 Die beiden Netzwerke liegen geografisch getrennt und kommunizieren über das Internet. Um die Daten vor fremdem Zugriff zu schützen, wurde ein VPN-Tunnel zwischen den beiden Routern aufgebaut. Dadurch wirken beide Standorte wie ein gemeinsames lokales Netzwerk – verschlüsselt und geschützt.
 ## 📎 Anhang
 Screenshots zur Topologie und Konfiguration befinden sich im Anhang
+
+# 🔐 Was ist VPN und warum ist es wichtig?
+VPN (Virtual Private Network) ist eine Technologie, die ein sicheres und verschlüsseltes Netzwerk über das Internet aufbaut.
+Man nutzt VPN, um private Netzwerke über öffentliche Verbindungen zu verbinden – also z. B. eine Filiale mit einem Hauptbüro, wie in diesem Projekt.
+
+## Vorteile von VPN:
+
+Sicherheit: Daten werden verschlüsselt übertragen.
+
+Datenschutz: Keine Einsicht durch Dritte im Internet.
+
+Remote-Zugriff: Geräte an entfernten Standorten können sicher auf zentrale Ressourcen zugreifen.
+
+Kostenersparnis: Kein teures Mietleitungsnetz nötig.
