@@ -1,0 +1,52 @@
+Konfgiguration Projekt 21:
+
+Syslog (System Logging Protocol): UDP Port- 514
+
+Switch 0:
+Switch(config)#logging console 
+Switch(config)#logging on
+Switch(config)#logging buffer
+Switch(config)#logging buffered ?
+  <4096-2147483647>  Logging buffer size
+  
+Switch(config)#logging buffered 4096
+Switch(config)#exit 
+
+
+Switch(config)#logging trap debugging 
+Switch(config)#logging 192.168.1.4
+
+Switch(config)#int vlan 1
+Switch(config-if)#ip ad
+Switch(config-if)#ip address 192.168.1.5 255.255.255.0
+Switch(config-if)#no shu
+Switch(config-if)#no shutdown 
+Switch(config-if)#end
+
+
+Switch(config)#service timestamps log datetime msec
+Switch(config)#exit 
+
+
+
+
+NTP( Network Time Protocol): UDP Port-123
+
+Router(config)#ntp server 192.168.1.4
+
+
+
+Syslog für Router:
+
+Router(config)#logging console 
+Router(config)#logging on
+Router(config)#logging buffered 4096
+Router(config)#logging trap debugging 
+Router(config)#logging 192.168.1.4
+
+Router(config)#service timestamps log datetime msec
+Router(config)#exit
+
+
+
+
