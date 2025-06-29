@@ -13,7 +13,7 @@ Beide Dienste wurden über einen zentralen Server (192.168.1.4) bereitgestellt.
 Du hast erfolgreich bewiesen, wie man ein kleines, aber professionell geführtes Netzwerk mit Basisdiensten für Monitoring und Zeitmanagement aufbauen kann.
 Das ist essenziell für alle größeren Netzwerke – in Unternehmen, Behörden oder Rechenzentren.
 
-## 📎 Anhang
+### 📎 Anhang
 Screenshots zur Topologie und Konfiguration befinden sich im Anhang
 
 
