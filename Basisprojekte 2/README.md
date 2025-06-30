@@ -10,4 +10,5 @@ Projekt 17: Dynamisches Routing mit OSPF + VLANs + Loopbacks
 Projekt 18: Dynamisches Routing mit EIGRP (Unterschied zwischen EIGRP und OSPF)            
 Projekt 19: Access Control List (ACL)          
 Projekt 20: VPN-Verbindung zwischen Filiale und Zentralem Office                                                                            
-Projekt 21: Syslog & NTP Konfiguration über einen zentralen Server
+Projekt 21: Syslog & NTP Konfiguration über einen zentralen Server              
+Projekt 22 – AAA (Authentication, Authorization, Accounting) in einem lokalen Netzwerk
