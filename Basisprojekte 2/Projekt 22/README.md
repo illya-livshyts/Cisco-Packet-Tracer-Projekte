@@ -5,7 +5,7 @@
 Das Ziel dieses Projekts war es, die zentrale Benutzerverwaltung mithilfe von AAA (Authentication, Authorization, Accounting) in einem lokalen Netzwerk zu implementieren. Dabei wurde ein zentraler Server verwendet, über den sich Benutzer an Netzwerkgeräten wie dem Router anmelden können.
 
 ### 🛠️ Technische Umsetzung
-→
+→ Konfgiguration-Hilfestellung.txt
 
 ### 📎 Anhang
 Screenshots zur Topologie und Konfiguration befinden sich im Anhang
@@ -26,8 +26,8 @@ Accounting – Was hast du getan?
 ✅ Vorteile von AAA:
 Zentrale Benutzerverwaltung
 
-Mehr Sicherheit durch individuelle Accounts
+- Mehr Sicherheit durch individuelle Accounts
 
-Besseres Logging und Nachverfolgung von Änderungen
+- Besseres Logging und Nachverfolgung von Änderungen
 
-Skalierbar für große Netzwerke
+- Skalierbar für große Netzwerke
