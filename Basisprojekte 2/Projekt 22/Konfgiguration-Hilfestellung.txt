@@ -1,0 +1,110 @@
+Konfgiguration Projekt 21:
+
+
+
+
+Router(config)#enable secret cisco
+Router(config)#username admin
+Router(config)#username admin privilege 15 secret cisco   
+
+
+-(Dieser Befehl setzt ein Passwort (hier "cisco"), das man eingeben muss, um in den 
+privilegierten EXEC-Modus des Routers zu gelangen. 
+Das ist der Modus, in dem du alle wichtigen Einstellungen ändern kannst. 
+Das Wort "secret" sorgt dafür, dass das Passwort verschlüsselt in der Konfiguration gespeichert wird – das ist viel sicherer als enable password.)
+
+-Der erste Befehl, "username admin" , erstellt den Benutzer einfach nur.
+
+-"privilege 15": Das gibt dem Benutzer "admin" die höchste Berechtigungsstufe (volle Administratorrechte) auf dem Router.
+
+
+-"secret cisco": Das setzt das Passwort für den Benutzer "admin" auf "cisco", und auch hier sorgt secret wieder für die Verschlüsselung.
+
+-----------------------------------------------------
+Router(config)#line console 0
+Router(config-line)#login local
+Router(config-line)#exit 
+
+
+-"line console 0"
+Dieser Befehl wechselt dich in den Konfigurationsmodus für die Konsolen-Schnittstelle (Port). 
+"Console 0" ist der physische Port am Router, an den du ein spezielles Konsolenkabel anschließt, 
+um direkt von einem Computer aus darauf zuzugreifen, oft für die Ersteinrichtung oder Fehlersuche.
+
+-login local
+Mit diesem Befehl sagst du dem Router, dass er für Anmeldungen über die Konsolen-Schnittstelle die lokal gespeicherten Benutzernamen und Passwörter verwenden soll. 
+Das sind die Benutzerkonten, die du zuvor mit dem Befehl "username ... secret ... "erstellt hast (z.B. username admin privilege 15 secret cisco).
+
+-----------------------------------------------------
+
+Router(config)#line vty 0 4
+Router(config-line)#log
+Router(config-line)#login local
+
+
+
+
+-"line vty 0 4"
+Dieser Befehl wählt die virtuellen Leitungen (VTY-Schnittstellen) aus. Das sind keine physischen Anschlüsse wie die Konsole, sondern "Kanäle", 
+über die sich Benutzer über das Netzwerk (z.B. per Telnet oder SSH) mit dem Router verbinden können. 
+Die Zahlen 0 4 bedeuten, dass du die Einstellungen für die ersten fünf gleichzeitig möglichen Verbindungen (von 0 bis 4) konfigurierst.
+
+
+-"login local"
+Dieser Befehl ist derselbe wie bei der Konsole: Er sorgt dafür, dass sich jeder, der versucht, über eine dieser virtuellen Leitungen auf den Router zuzugreifen, 
+mit einem Benutzernamen und Passwort anmelden muss. 
+Diese Anmeldeinformationen werden lokal auf dem Router überprüft (also die Konten, die du mit username ... secret ... erstellt hast).
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+Router 1: AAA
+
+
+Router(config)#enable secret cisco
+Router(config)#username admin privilege 15 secret cisco
+
+
+Router(config)#aaa new
+Router(config)#aaa new-model 
+Router(config)#aaa authentication login default group radius local
+
+
+
+Ich habe ein leistungsstärkeres Sicherheitssystem (AAA) auf deinem Router aktiviert. 
+Jetzt versucht mein Router, Anmeldungen zuerst über einen zentralen RADIUS-Server zu überprüfen. 
+Das ist effizient für große Netze, da du alle Benutzer an einem Ort verwaltest.
+Nur wenn der RADIUS-Server nicht antwortet oder die Überprüfung fehlschlägt, fällt der Router auf seine lokal gespeicherten Benutzerkonten zurück. 
+Das erhöht die Sicherheit und Flexibilität deiner Benutzerverwaltung.
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+Über Server 0: AAA
+
+
+Router 0:
+Router(config)#aaa new-model 
+Router(config)#aaa authentication login default local group radius local
+Router(config)#radius-server host 192.168.1.4 key cisco
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
