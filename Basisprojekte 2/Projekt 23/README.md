@@ -21,3 +21,5 @@ Ein ungesichertes WLAN kann:
 Deshalb sollten immer sichere Standards wie WPA2 oder WPA3 verwendet werden.
 
 
+### 📎 Anhang
+Screenshots zur Topologie und Konfiguration befinden sich im Anhang
