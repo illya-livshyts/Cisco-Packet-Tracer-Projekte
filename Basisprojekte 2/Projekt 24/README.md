@@ -1,4 +1,4 @@
-# Projekt 24 – Drei Büros mit VLANs (inkl. WLAN)
+# Projekt 24: Drei Büros mit VLANs (inkl. WLAN)
 
 ## Projektziel
 Ziel dieses Projekts war es, drei verschiedene Büros logisch zu trennen, indem jedem Büro ein eigenes VLAN zugewiesen wurde – inklusive eines drahtlosen Netzwerks für das „WLAN-Büro“. Es handelt sich um eine vereinfachte Unternehmensstruktur, die zeigt, wie VLANs eingesetzt werden, um Ordnung und Sicherheit ins Netzwerk zu bringen.
