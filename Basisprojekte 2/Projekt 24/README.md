@@ -22,4 +22,5 @@ Der Router verbindet das gesamte interne Netzwerk mit dem „Internet“ (oder e
 
 - Auch WLAN-Clients erhalten IPs aus dem VLAN-4-Netz und bleiben getrennt von anderen VLANs
 
-
+### 📎 Anhang
+Screenshots zur Topologie und Konfiguration des Access Points befinden sich im Anhang
